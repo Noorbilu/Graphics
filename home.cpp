@@ -21,6 +21,9 @@ int main() {
     setfillstyle(SOLID_FILL, CYAN);
     bar(135, 220, 165, 250);
 
+    setfillstyle(SOLID_FILL, CYAN);
+    bar(235, 220, 265, 250);
+
     getch();
     closegraph();
     return 0;
